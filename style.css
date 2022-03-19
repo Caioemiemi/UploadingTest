@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #325c38 27.26%, #2aa83b 96.03%);
+  font-family: "Roboto Mono", monospace;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 21vh;
+}
+
+.container {
+  background: lightgray;
+  background-size: cover;
+  padding-bottom: 21vh;
+  color: #2c903a;
+  margin: 20px;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 0px black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+}
+
+.imgProfile {
+  border-radius: 460px;
+  max-height: 200px;
+  box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+}
+
+.title {
+  margin-left: 15px;
+}
+
+.title h1 {
+  opacity: 1.5;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title h3 {
+  opacity: 1.5;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.theme button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 5px 10px;
+  background: whitesmoke;
+  border-style: inset;
+  border-size: 10px;
+  border-radius: 15px;
+  background: #2c903a;
+}
+
+.contentProjects {
+  dispplay: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 35px;
+  padding: 12px;
+  display: block;
+  background: linear-gradient(180.85deg, #2c903a 30.26%, lightgray 90.03%);
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px 0px
+    linear-gradient(180.85deg, #2c903a 30.26%, lightgray 90.03%);
+  opacity: 0.8;
+}
+
+.listTitle {
+  list-style: none;
+  color: black;
+  padding: 5px;
+  margin: 25px;
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 1;
+}
+
+.listTitle li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+.listTitle a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.darkMode {
+  background: linear-gradient(236.85deg, gray 27.26%, #85dd93 96.03%);
+}
+
+.darkMode .container {
+  background: #333439;
+  color: #85dd93;
+}
+
+.darkMode .contentProjects {
+  background: linear-gradient(180.85deg, #85dd93 30.26%, #333439 90.03%);
+}
+.darkMode .theme button {
+  background: #85dd93;
+  color: whitesmoke;
+  padding: 5px 10px;
+  font-size: 24px;
+}
+
+.darkMode .listTitle {
+  color: whitesmoke;
+}
